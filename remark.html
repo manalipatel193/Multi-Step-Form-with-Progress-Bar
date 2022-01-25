@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="remark.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">     
+</head>
+<body>
+    <div class="container">
+      <h1 style="margin-left: 40px;" >Step Wizard</h1>
+      <p style=" margin-left: 40px;">You can find the <mark style="background-color: white; color: red; ">official website</mark></p>
+      <div class="progressbar" style="padding: 2px;    margin-left: 230px; width: 58%; ">
+        <div class="progress-step" data-title="Personal Info" style="background-color: blue;color: white;"></div>
+        <div class="progress-step" data-title="Job" style="background-color: blue;color: white;"></div>
+        <div class="progress-step"data-title="Interview" style="background-color: blue;color: white;"></div>
+        <div class="progress-step"data-title="Remark" style="background-color: blue; color: white;"></div>
+     </div> 
+    <form>
+        <div class="row">
+            <div class="col-md-12">
+            <div class="col-md-6" style="    margin-left: 40px;">
+                Behaviour:<br><br> <input type="text" style="width: 700px; margin-left: 0px;">
+            </div>
+            <div class="col-md-6" style="margin-top: -60px; margin-left: 806px">
+                Comment:<br><br><input type="text" style="width: 700px; height: 104px;">
+            </div>
+        </div>
+              
+        <div class="col-md-12" style="    margin-top: -32px;">
+            <div class="col-md-6" style="    margin-left: 40px;">
+             Confidence:<br><br> <input type="text" style="width: 700px; margin-left: 0px;">
+            </div>
+
+            <div class="col-md-6" style="margin-left: 803px;">
+            Rate Interviwer:<br><br> 
+           
+               <input type="radio"  name="Requirements">1 Star <br>
+               <input type="radio"  name="Requirements">2 star <br>
+               <input type="radio"  name="Requirements">3 star <br>
+               <input type="radio"  name="Requirements">4 star <br>
+               <input type="radio"  name="Requirements">5 star <br>
+            
+
+            <div class="col-md-12" style=" margin-top: -81px; margin-left: -762px;">
+                    <label for="city">Result: </label><br><br>
+    <select id="city" name="statelist" form="stateform" style="width: 700px; padding:3px;">
+        <option value="Select State">Select result</option>
+      <option>Pass</option>
+      <option>Fail</option>
+      </select>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <div style="float: right;">
+          <a href="interview.html" class="previous" style="margin-right: 6px; margin-top: 30px;border-radius: 6%; width: 68px;"> Previous</a>
+          <input type="submit" style="    border-radius: 7%;
+          background-color: blue;
+          width: 91px;
+          height: 36px;
+          margin: 10px;
+          margin-left: -4px;">
+          </div>
+          </div>
+    </div>            
+</div>                     
+</div>
+</form>
+</div>
+</body>
+
+        
